@@ -7,31 +7,29 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Aloysius Ho's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Aloysius Ho
+headline: System Engineering Project 1
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+ This project applies the Systems Approach from the Systems Engineering Body of Knowledge (SEBoK) to design, develop, and implement a robotic system using the LIMO robot platform and ROS 1 Melodic.
+As part of the project, we designed a custom arena and programmed the robot to autonomously navigate not only our own arena, but also adapt to and operate in arenas built by other teams.
+The e-portfolio showcases key systems engineering activities such as problem definition, requirement analysis, system synthesis, integration, testing, and evaluation — all guided by SEBoK principles.
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
-
+resume-url: https://docs.google.com/document/d/1gIbADnRd4em16hFoscmXGYcJoDb5Sb-O/edit?usp=sharing&ouid=111624256907740003091&rtpof=true&sd=true
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
+  linkedin: https://www.linkedin.com/in/ahjs-aloysius-ho/    # https://www.linkedin.com/in/{your url slug} 
   github: leea12    # https://github.com/{your url slug} 
   stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
