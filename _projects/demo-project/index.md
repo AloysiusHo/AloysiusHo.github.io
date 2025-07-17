@@ -1,16 +1,9 @@
 ---
 layout: post
-title: Super Heavy Booster Catch (Demo Only)
+title: Limo Robot
 description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
-    Developing the Super Heavy booster catch project involves designing a robust launch tower with "chopstick" arms, advanced control systems for precise booster alignment, and integrating sophisticated software for real-time trajectory adjustments and structural engineering to handle immense forces.
-skills: 
-  - Structural analysis
-  - Aerodynamic design
-  - Propulsion system integration
-  - Control Algorithem 
-  - Welding
-  - Metal forming
-  - Thermal simulation
+This project applies the Systems Approach from the Systems Engineering Body of Knowledge (SEBoK) to design, develop, and implement a robotic system using the     LIMO robot platform and ROS 1 Melodic.
+As part of the project, we designed a custom arena and programmed the robot to autonomously navigate not only our own arena, but also adapt to and operate in   arenas built by other teams.
 
 main-image: /project2.jpg
 ---
