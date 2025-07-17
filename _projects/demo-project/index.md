@@ -4,7 +4,7 @@ title: Limo Robot
 description:  
   This project applies the Systems Approach from the Systems Engineering Body of Knowledge (SEBoK) to design, develop, and implement a robotic system using the     LIMO robot platform and ROS 1 Melodic. As part of the project, we designed a custom arena and programmed the robot to autonomously navigate not only our own       arena, but also adapt to and operate in arenas built by other teams.
 
-main-image: /project2.jpg
+main-image: /Limo_robot.jpg
 ---
 
 ---
