@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Limo Robot
-description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
+description:  
   This project applies the Systems Approach from the Systems Engineering Body of Knowledge (SEBoK) to design, develop, and implement a robotic system using the     LIMO robot platform and ROS 1 Melodic. As part of the project, we designed a custom arena and programmed the robot to autonomously navigate not only our own       arena, but also adapt to and operate in arenas built by other teams.
 
 main-image: /project2.jpg
