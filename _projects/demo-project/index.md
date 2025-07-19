@@ -15,8 +15,7 @@ The goal is to autonomously reach the center of the assigned plot from the initi
 
 
 
-## Arena 
-### Canopy Park
+## Arena: Canopy Park
 The theme of the arena is based on Canopy Park, a featured attraction at Changi Airport.
 {% include image-gallery.html images="Arena_2.jpg" height="400"%}
  
