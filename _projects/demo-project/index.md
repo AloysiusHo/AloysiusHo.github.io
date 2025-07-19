@@ -16,8 +16,8 @@ Use this for the header of each section
 Use this to have subsection if needed
 
 
-## Embedding images 
-### External images
+## Arena 
+### Canopy Park
 {% include image-gallery.html images="Arena_2.jpg" height="400"%}
 <span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
 You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
