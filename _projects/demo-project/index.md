@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Limo Robot
+title: System Engineering Project 1
 description:  
   This project applies the Systems Approach from the Systems Engineering Body of Knowledge (SEBoK) to design, develop, and implement a robotic system using the     LIMO robot platform and ROS 1 Melodic. As part of the project, we designed a custom arena and programmed the robot to autonomously navigate not only our own       arena, but also adapt to and operate in arenas built by other teams.
 
@@ -18,7 +18,7 @@ Use this to have subsection if needed
 
 ## Embedding images 
 ### External images
-{% include image-gallery.html images="Arena.jpg" height="400"%}
+{% include image-gallery.html images="Arena_2.jpg" height="400"%}
 <span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
 You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
 
