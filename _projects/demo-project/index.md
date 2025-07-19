@@ -23,7 +23,7 @@ The theme of the arena is based on Canopy Park, a featured attraction at Changi 
 
 ## Demonstration
 This video showcases the LIMO robot navigating from the starting point to the center of our arena.
-{% include youtube-video.html id="jBH--Sihadw" autoplay = "true" width= "900px" %}  
+{% include youtube-video.html id="QSk72anIw7c" autoplay = "true" width= "900px" %}  
 
 <br>
 
