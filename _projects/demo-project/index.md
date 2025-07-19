@@ -2,7 +2,7 @@
 layout: post
 title: Systems Engineering Project 1
 description:  
-  This project applies the Systems Approach from the Systems Engineering Body of Knowledge (SEBoK) to design, develop, and implement a robotic system using the     LIMO robot platform and ROS 1 Melodic. As part of the project, we designed a 1.33m x 1.5m changi airport related arena and programmed the robot with ROS1(Melodic) to autonomously navigate not only our own themed arena, but also adapt to and operate in arenas built by other teams.
+  This project involves implementing a robotic system using the LIMO robot platform, ROS1 (Melodic) Navigation Stack, and RTAB-Map for real-time mapping. As part of the development, we designed a 1.33m x 1.5m Changi Airport-themed arena and programmed the robot to autonomously navigate not only within our own arena but also across arenas built by other teams. Using RTAB-Map, the robot was able to generate real-time maps of both familiar and unfamiliar environments to support autonomous navigation.
 
 main-image: /Limo_robot.jpg
 ---
