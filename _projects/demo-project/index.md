@@ -17,18 +17,13 @@ The goal is to autonomously reach the center of the assigned plot from the initi
 
 ## Arena 
 ### Canopy Park
+The theme of the arena is based on Canopy Park, a featured attraction at Changi Airport.
 {% include image-gallery.html images="Arena_2.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
+ 
 
 
 ## Demonstration
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
-*Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
-
-you can also set up custom size by specifying the width (the aspect ratio has been set to 16/9). The default size is 560 pixels x 315 pixels.  
-
-The width of the video below. Regardless of initial width, all the videos is responsive and will fit within the smaller screen.
+This video showcases the LIMO robot navigating from the starting point to the center of our arena.
 {% include youtube-video.html id="jBH--Sihadw" autoplay = "true" width= "900px" %}  
 
 <br>
