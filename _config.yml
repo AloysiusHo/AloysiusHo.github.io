@@ -17,8 +17,8 @@ headline: Portfolio
 description: >- # dont remove this line. this will ignore all new lines until the next section
  I am a student at the Singapore Institute of Technology (SIT), currently pursuing a degree in Robotics Systems Engineering (RSE). 
  Throughout my studies, I have gained practical and theoretical knowledge in systems engineering, the Robot Operating System (ROS), as well as programming in Python and C++.
- I apply structured engineering methods, guided by frameworks such as SEBoK and ISO/IEC/IEEE 15288, to design, analyze, and manage complex systems. My experience with ROS 1 (Melodic) includes working with the navigation stack, motion planning, SLAM, and robot simulation. 
- By integrating both software and systems thinking, I aim to develop intelligent and reliable robotic solutions that meet real-world operational needs. This e-portfolio showcases my learning journey and the projects where I apply these skills in practice.
+ My experience with ROS 1 (Melodic) includes working with the navigation stack, motion planning, SLAM, and robot simulation. 
+ I aim to develop intelligent and reliable robotic solutions that meet real-world operational needs. This e-portfolio showcases my learning journey and the projects where I apply these skills in practice.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/Linkedin_face.jpg
