@@ -29,8 +29,9 @@ Our system was designed to move from its starting location to the center of a de
 
 ## Thematic Arena: Canopy Park
 Our arena design was inspired by Canopy Park at Changi Airport, incorporating both decorative features and physical obstacles to resemble a realistic airport setting. This thematic approach blended technical complexity with creative design.
+<div style="margin-bottom: 40px;">
 {% include image-gallery.html images="Arena_2.jpg" height="400"%}
-
+</div>
 
 
 ## Robot Platform: LIMO
