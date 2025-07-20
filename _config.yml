@@ -49,12 +49,14 @@ skills:
     tools:
     - Solidworks
     - Fusion 360 (Autodesk)
+    - AutoCAD
   - category: Programming language
     tools:
     - C++
     - C
     - Spin
-    - ROS1(Melodic)
+    - Python
+    - Robotic Operating System(ROS1 Melodic)
     
 
 
