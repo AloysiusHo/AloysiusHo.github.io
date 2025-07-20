@@ -4,7 +4,7 @@ title: Systems Engineering Project 1
 description:  
   This project involves implementing a robotic system using the LIMO robot platform, ROS1 (Melodic) Navigation Stack, and RTAB-Map for real-time mapping. As part of the development, we designed a 1.33m x 1.5m Changi Airport-themed arena and programmed the robot to autonomously navigate not only within our own arena but also across arenas built by other teams. Using RTAB-Map, the robot was able to generate real-time maps of both familiar and unfamiliar environments to support autonomous navigation.
 
-main-image: /Limo_robot.jpg
+main-image: /Limo.png
 ---
 
 ---
