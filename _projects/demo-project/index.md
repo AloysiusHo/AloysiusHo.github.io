@@ -24,7 +24,7 @@ The theme of the arena is based on Canopy Park, a featured attraction at Changi 
 ## Demonstration
 This video showcases the LIMO robot navigating from the starting point to the center of our arena.  
 If you would like to explore the source code for this project, you can visit our GitHub repository:  
-[🔗 View Project Code on GitHub](YongJiee/Systems-Engineering-Project-1-Group-6.git)
+[🔗 View Project Code on GitHub](https://github.com/YongJiee/Systems-Engineering-Project-1-Group-6.git)
 
 {% include youtube-video.html id="QSk72anIw7c" autoplay = "true" width= "900px" %}  
 
