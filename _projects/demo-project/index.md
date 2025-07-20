@@ -7,7 +7,7 @@ description:
 skills: 
   - Robot Operating System (ROS 1 Melodic)
   - C++ / Python Programming
-  - -SLAM (Simultaneous Localization and Mapping)
+  - SLAM (Simultaneous Localization and Mapping)
   - Autonomous Navigation (using move_base, amcl, costmaps)
   - Linux/Ubuntu Development Environment
   - Sensor Integration (LIDAR, IMU, wheel encoders)
