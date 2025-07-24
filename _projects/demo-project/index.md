@@ -12,7 +12,7 @@ skills:
   - Linux/Ubuntu Development Environment
   - Sensor Integration (LIDAR, IMU, wheel encoders)
   - System Integration
-main-image: /limo.png
+main-image: /LIMO_robot.png
 ---
 
 ---
@@ -35,7 +35,7 @@ Our arena design was inspired by Canopy Park at Changi Airport, incorporating bo
 
 ## Robot Platform: LIMO
 For this project, we used the LIMO robot platform by AgileX Robotics. LIMO is a compact and versatile mobile robot equipped with multiple drive modes (Ackermann, omnidirectional, tracked, and differential)
-{% include image-gallery.html images="limo.png" height="400"%} 
+{% include image-gallery.html images="LIMO_robot.png" height="400"%} 
 
 
 
