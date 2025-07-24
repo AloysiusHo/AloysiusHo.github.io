@@ -42,7 +42,7 @@ For this project, we used the LIMO robot platform by AgileX Robotics. LIMO is a 
 ## Demonstration
 This clip shows our LIMO robot navigating a themed arena using ROS1 and RTAB-Map. It performs real-time mapping and autonomous navigation, adapting to the environment and reaching the goal efficiently.  
 If you would like to explore the source code for this project, you can visit our GitHub repository:  
-[🔗 View Project Code on GitHub](https://github.com/YongJiee/Systems-Engineering-Project-1-Group-6.git)
+[🔗 View Project Code on GitHub](https://github.com/AloysiusHo/Personal_Project/tree/main/Systems-Engineering-Project-1-Group-6-main)
 
 {% include youtube-video.html id="QSk72anIw7c" autoplay = "true" width= "900px" %}  
 
