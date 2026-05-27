@@ -10,7 +10,7 @@ skills:
   - Linux/Ubuntu Development Environment
   - Sensor Integration (LIDAR, IMU, wheel encoders)
   - System Integration
-main-image: /Ceva.png
+main-image: /Simulation_detection.jpg
 ---
 
 ---
