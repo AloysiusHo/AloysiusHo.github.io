@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project $
+title: Project 4
 description:  
   This project involves implementing a computer vision system using a fixed camera setup, combining an RGB camera with a depth camera to detect objects and accurately estimate their physical dimensions. As part of the development, we designed and calibrated a pipeline capable of identifying objects in real time and computing their height and dimensions from camera data alone. The system was built with logistics and warehousing applications in mind, simulating how such a solution could be used in a warehouse environment to automatically measure packages or items without manual intervention. Through this project, we explored key concepts in depth sensing, point cloud processing, and object detection to deliver a reliable and practical dimensioning solution.
   
@@ -10,7 +10,7 @@ skills:
   - Linux/Ubuntu Development Environment
   - Sensor Integration (LIDAR, IMU, wheel encoders)
   - System Integration
-main-image: /LIMO_robot.png
+main-image: /Ceva.png
 ---
 
 ---
@@ -37,15 +37,15 @@ For this project, we used the ZED stereo camera as our primary sensing device. T
 
 ## Detection Framework: YOLO-Based Object Detection
 To identify boxes within the camera's field of view, we employed a YOLO-based object detection model. YOLO's real-time inference capabilities allowed us to accurately localise boxes in each frame, which then served as the region of interest for depth extraction and dimension calculation.
+{% include image-gallery.html images="Detection.png" height="400"%} 
 
 ## Demonstration
-This clip shows our LIMO robot navigating a themed arena using ROS1 and RTAB-Map. It performs real-time mapping and autonomous navigation, adapting to the environment and reaching the goal efficiently.  
+This clip demonstrates our vision-based dimensioning system using the ZED camera and YOLO, detecting boxes in real time and instantly computing their height, dimensions, and volume against standard size classifications.  
 If you would like to explore the source code for this project, you can visit our GitHub repository:  
 [🔗 View Project Code on GitHub](https://github.com/AloysiusHo/Personal_Project/tree/main/Systems-Engineering-Project-1-Group-6-main)
 
-{% include youtube-video.html id="QSk72anIw7c" autoplay = "true" width= "900px" %}  
+{% include youtube-video.html id="bXW4LSCAjjY" autoplay = "true" width= "900px" %}  
 
 <br>
-
 
 
