@@ -33,7 +33,7 @@ The project was scoped as a scaled-down simulation of a logistics and warehousin
 
 ## Hardware Platform: ZED Camera
 For this project, we used the ZED stereo camera as our primary sensing device. The ZED provides high-quality RGB imagery alongside dense depth data, making it well-suited for both object detection and 3D spatial measurement in a fixed-camera configuration.
-{% include image-gallery.html images="LIMO_robot.png" height="400"%} 
+{% include image-gallery.html images="ZED2i.png" height="400"%} 
 
 ## Detection Framework: YOLO-Based Object Detection
 To identify boxes within the camera's field of view, we employed a YOLO-based object detection model. YOLO's real-time inference capabilities allowed us to accurately localise boxes in each frame, which then served as the region of interest for depth extraction and dimension calculation.
