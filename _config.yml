@@ -15,10 +15,9 @@ title: Aloysius Ho's Portfolio # This is what shows up in the tab of the browser
 name: Aloysius Ho
 headline: About me
 description: >- # dont remove this line. this will ignore all new lines until the next section
- I am a student at the Singapore Institute of Technology (SIT), currently pursuing a degree in Robotics Systems Engineering (RSE). 
- Throughout my studies, I have gained practical and theoretical knowledge in systems engineering, the Robot Operating System (ROS), as well as programming in Python and C++.
- My experience with ROS 1 (Melodic) includes working with the navigation stack, motion planning, SLAM, and robot simulation. 
- I aim to develop intelligent and reliable robotic solutions that meet real-world operational needs. This e-portfolio showcases my learning journey and the projects where I apply these skills in practice.
+I am a student at the Singapore Institute of Technology (SIT), currently pursuing a degree in Robotics Systems Engineering (RSE). Throughout my studies, I have gained practical and theoretical knowledge in systems engineering, the Robot Operating System (ROS), as well as programming in Python and C++.
+My experience with ROS 2 Humble includes working with the navigation stack, motion planning, SLAM, and robot simulation. Beyond software, I have also applied computer vision techniques using both RGB and depth cameras to perform real-time object detection and 3D dimension estimation — skills developed through a logistics-inspired project focused on automatically measuring the height and dimensions of objects in a scaled-down warehousing environment.
+I aim to develop intelligent and reliable robotic solutions that meet real-world operational needs. This e-portfolio showcases my learning journey and the projects where I apply these skills in practice.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/Linkedin_face2.jpg
