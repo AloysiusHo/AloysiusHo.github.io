@@ -27,7 +27,7 @@ Our system was designed to detect a box placed within the camera's field of view
 
 ## Thematic Arena: Scaled Warehousing Simulation
 The project was scoped as a scaled-down simulation of a logistics and warehousing use case, where automated dimensioning of parcels is a common operational need. Rather than a physical arena, our working environment was a controlled tabletop setup designed to replicate how boxes might be presented to a fixed scanning station in a warehouse setting.
-{% include image-gallery.html images="Arena_2.jpg" height="400"%}
+{% include image-gallery.html images="Simulation_detection.jpg" height="400"%}
 
 
 
@@ -35,9 +35,13 @@ The project was scoped as a scaled-down simulation of a logistics and warehousin
 For this project, we used the ZED stereo camera as our primary sensing device. The ZED provides high-quality RGB imagery alongside dense depth data, making it well-suited for both object detection and 3D spatial measurement in a fixed-camera configuration.
 {% include image-gallery.html images="ZED2i.png" height="400"%} 
 
+
+
 ## Detection Framework: YOLO-Based Object Detection
 To identify boxes within the camera's field of view, we employed a YOLO-based object detection model. YOLO's real-time inference capabilities allowed us to accurately localise boxes in each frame, which then served as the region of interest for depth extraction and dimension calculation.
 {% include image-gallery.html images="Detection.png" height="400"%} 
+
+
 
 ## Demonstration
 This clip demonstrates our vision-based dimensioning system using the ZED camera and YOLO, detecting boxes in real time and instantly computing their height, dimensions, and volume against standard size classifications.  
