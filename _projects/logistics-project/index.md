@@ -8,7 +8,7 @@ skills:
   - Robot Operating System (ROS 2 Humble)
   - C++ / Python Programming
   - Linux/Ubuntu Development Environment
-  - Sensor Integration (LIDAR, IMU, wheel encoders)
+  - Sensor Integration (Stereo Vision Camera)
   - System Integration
 main-image: /Simulation_detection.jpg
 ---
