@@ -27,7 +27,7 @@ Our system was designed to detect a box placed within the camera's field of view
 
 ## Thematic Arena: Scaled Warehousing Simulation
 The project was scoped as a scaled-down simulation of a logistics and warehousing use case, where automated dimensioning of parcels is a common operational need. Rather than a physical arena, our working environment was a controlled tabletop setup designed to replicate how boxes might be presented to a fixed scanning station in a warehouse setting.
-{% include image-gallery.html images="Simulation_detection.jpg" height="400"%}
+{% include image-gallery.html images="Simulation_detection.jpg" height="100"%}
 
 
 
