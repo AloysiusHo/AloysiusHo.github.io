@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Systems Engineering Project 1
+title: Project $
 description:  
-  This project involves implementing a robotic system using the LIMO robot platform, ROS1 (Melodic) Navigation Stack, and RTAB-Map for real-time mapping. As part of the development, we designed a 1.33m x 1.5m Changi Airport-themed arena and programmed the robot to autonomously navigate not only within our own arena but also across arenas built by other teams. Using RTAB-Map, the robot was able to generate real-time maps of both familiar and unfamiliar environments to support autonomous navigation.
+  This project involves implementing a computer vision system using a fixed camera setup, combining an RGB camera with a depth camera to detect objects and accurately estimate their physical dimensions. As part of the development, we designed and calibrated a pipeline capable of identifying objects in real time and computing their height and dimensions from camera data alone. The system was built with logistics and warehousing applications in mind, simulating how such a solution could be used in a warehouse environment to automatically measure packages or items without manual intervention. Through this project, we explored key concepts in depth sensing, point cloud processing, and object detection to deliver a reliable and practical dimensioning solution.
   
 skills: 
-  - Robot Operating System (ROS 1 Melodic)
+  - Robot Operating System (ROS 2 Humble)
   - C++ / Python Programming
-  - SLAM (Simultaneous Localization and Mapping)
-  - Autonomous Navigation (using move_base, amcl, costmaps)
   - Linux/Ubuntu Development Environment
   - Sensor Integration (LIDAR, IMU, wheel encoders)
   - System Integration
@@ -17,27 +15,28 @@ main-image: /LIMO_robot.png
 
 ---
 # Design Challenge
-The core challenge of this project was to build a robotic solution capable of reliable autonomous navigation across a variety of indoor arenas. To simulate real-world unpredictability, each team constructed their own unique layout, requiring our system to handle unfamiliar terrains and obstacles with no prior data. This highlighted the need for robust mapping, path planning, and localization strategies.
+The core challenge of this project was to build a vision-based system capable of reliably detecting boxes and accurately measuring their physical properties — regardless of how they were positioned in front of the camera. The system needed to handle varying box orientations and sizes without any manual input, reflecting the kind of unpredictability found in real-world logistics and warehousing environments. This highlighted the need for robust object detection, precise depth estimation, and intelligent volume classification.
 
 
 
-## Navigation Objective 
-Our system was designed to move from its starting location to the center of a designated plot using the most efficient route. To achieve this, the robot needed to interpret sensor data, dynamically generate a map, and determine optimal paths.
+## Measurement Objective
+Our system was designed to detect a box placed within the camera's field of view and automatically compute its height, dimensions, and total volume. Beyond raw measurements, the system would then compare the calculated volume against predefined thresholds for small, medium, and large box categories — alerting the user if the object's volume exceeds the recommended limits for each size class.
 
 
 
 
-## Thematic Arena: Canopy Park
-Our arena design was inspired by Canopy Park at Changi Airport, incorporating both decorative features and physical obstacles to resemble a realistic airport setting. This thematic approach blended technical complexity with creative design.
+## Thematic Arena: Scaled Warehousing Simulation
+The project was scoped as a scaled-down simulation of a logistics and warehousing use case, where automated dimensioning of parcels is a common operational need. Rather than a physical arena, our working environment was a controlled tabletop setup designed to replicate how boxes might be presented to a fixed scanning station in a warehouse setting.
 {% include image-gallery.html images="Arena_2.jpg" height="400"%}
 
 
 
-## Robot Platform: LIMO
-For this project, we used the LIMO robot platform by AgileX Robotics. LIMO is a compact and versatile mobile robot equipped with multiple drive modes (Ackermann, omnidirectional, tracked, and differential)
+## Hardware Platform: ZED Camera
+For this project, we used the ZED stereo camera as our primary sensing device. The ZED provides high-quality RGB imagery alongside dense depth data, making it well-suited for both object detection and 3D spatial measurement in a fixed-camera configuration.
 {% include image-gallery.html images="LIMO_robot.png" height="400"%} 
 
-
+## Detection Framework: YOLO-Based Object Detection
+To identify boxes within the camera's field of view, we employed a YOLO-based object detection model. YOLO's real-time inference capabilities allowed us to accurately localise boxes in each frame, which then served as the region of interest for depth extraction and dimension calculation.
 
 ## Demonstration
 This clip shows our LIMO robot navigating a themed arena using ROS1 and RTAB-Map. It performs real-time mapping and autonomous navigation, adapting to the environment and reaching the goal efficiently.  
